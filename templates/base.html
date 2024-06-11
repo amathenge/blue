@@ -11,15 +11,15 @@
     All the good stuff goes here
 -->
     <div class="container">
-        <div class="row my-3 border-bottom border-primary">
-            <div class="col">
-                <a href="page1.html" class="btn btn-primary">{{ url_for('page1') }}</a>
+        <div class="row my-3 border-bottom border-primary my-4 py-2">
+            <div class="col d-flex justify-content-center">
+                <a href="{{ url_for('page1') }}" class="btn btn-primary">Page 1</a>
             </div>
-            <div class="col">
-                <a href="page2.html" class="btn btn-primary">{{ url_for('page2') }}</a>
+            <div class="col d-flex justify-content-center">
+                <a href="{{ url_for('page2') }}" class="btn btn-primary">Page 2</a>
             </div>
-            <div class="col">
-                <a href="page3.html" class="btn btn-primary">{{ url_for('page3') }}</a>
+            <div class="col d-flex justify-content-center">
+                <a href="{{ url_for('page3') }}" class="btn btn-primary">Page 3</a>
             </div>
         </div>
         {% block content %}{% endblock %}
