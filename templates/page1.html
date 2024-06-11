@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <div class="row justify-content-center border my-2">
+            <div class="col d-flex justify-content-center mx-5">
+                <a href="index.html" class="btn btn-primary mx-2">Rows and Cols</a>
+                <a href="row1.html" class="btn btn-primary mx-2">Input Boxes</a>
+                <a href="row2.html" class="btn btn-primary mx-2">Buttons</a>
+                <button type="submit" class="btn btn-primary mx-2">Row Items 4</button>
+                <button type="submit" class="btn btn-primary mx-2">Row Items 5</button>
+                <button type="submit" class="btn btn-primary mx-2">Row Items 6</button>
+            </div>
+        </div>
+        <div class="row border">
+            <p>A paragraph in a row - no column specs - the row has a border</p>
+        </div>
+
+        <div class="row border my-2 justify-content-end">
+            <p>Another paragraph. &lt;row&gt; has <b>justify-content-end</b></p>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-end">Another paragraph. &lt;p&gt; has <b>text-end</b></p>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center">Another paragraph. &lt;p&gt; has <b>text-center</b></p>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">two <b>col-6</b> with &lt;p&gt; tags</p>
+            <div class="col-6 border"><p>col-6</p></div>
+            <div class="col-6 border"><p>col-6</p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">two <b>col-6</b> with &lt;p&gt; tags</p>
+            <div class="col-6 border"><p class="text-end">col-6 with <b>p=text-end</b></p></div>
+            <div class="col-6 border"><p>col-6</p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">two <b>col-6</b> with &lt;p&gt; tags</p>
+            <div class="col-6 border"><p class="text-end">col-6 with <b>p=text-end</b></p></div>
+            <div class="col-6 border"><p class="text-center">col-6 with <b>p=text-center</b></p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">two <b>col-6</b> with <b>NO</b> &lt;p&gt; tags</p>
+            <div class="col-6 border">col-6</div>
+            <div class="col-6 border">col-6</div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">two <b>col-6</b> with <b>NO</b> &lt;p&gt; tags.
+            <b>justify-content-end</b> does not work on <b>col</b> tags</p>
+            <div class="col-6 border justify-content-end"><span>col-6 with &lt;span&gt;</span></div>
+            <div class="col-6 border">col-6</div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">three <b>col-4's</b> with &lt;p&gt; tags</p>
+            <div class="col-4 border"><p>col-4</p></div>
+            <div class="col-4 border"><p>col-4</p></div>
+            <div class="col-4 border"><p>col-4</p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">four <b>col-3's</b> with &lt;p&gt; tags</p>
+            <div class="col-3 border"><p>col-3</p></div>
+            <div class="col-3 border"><p>col-3</p></div>
+            <div class="col-3 border"><p>col-3</p></div>
+            <div class="col-3 border"><p>col-3</p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">six <b>col-2's</b> with &lt;p&gt; tags</p>
+            <div class="col-2 border"><p>col-2</p></div>
+            <div class="col-2 border"><p>col-2</p></div>
+            <div class="col-2 border"><p>col-2</p></div>
+            <div class="col-2 border"><p>col-2</p></div>
+            <div class="col-2 border"><p>col-2</p></div>
+            <div class="col-2 border"><p>col-2</p></div>
+        </div>
+
+        <div class="row border my-2">
+            <p class="text-center my-2">twelve <b>col-1's</b> with &lt;p&gt; tags</p>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+            <div class="col-1 border"><p>col-1</p></div>
+        </div>
+
+{% endblock %}
+
+
+
